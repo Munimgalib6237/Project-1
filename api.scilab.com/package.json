@@ -1,0 +1,47 @@
+{
+  "name": "api.researchportal.com",
+  "version": "1.0.0",
+  "description": "Backend REST API application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mamun-swe/api.researchportal.com"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "author": "Abdullah Al Mamun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mamun-swe/api.researchportal.com/issues"
+  },
+  "homepage": "https://github.com/Mamun-swe/api.researchportal.com#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "nocache": "^3.0.1",
+    "npm": "^8.5.2",
+    "voca": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

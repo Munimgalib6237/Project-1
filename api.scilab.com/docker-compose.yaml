@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+
+  # API service
+  aurlab:
+    build: .
+    image: aurlab
+    container_name: aurlab
+    ports:
+      - 80:80
+    environment:
+      - PORT=80
+      - DB_URL=mongodb+srv://mamun_swe:KG1UciyRKg0ZcJTG@cluster0-lkz2b.mongodb.net/research-top?retryWrites=true&w=majority
+      - JWT_SECRET=4USX5FPTttnpYYOT3NPNFSTqAi3LLh2b

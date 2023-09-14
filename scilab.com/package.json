@@ -1,0 +1,39 @@
+{
+    "name": "client.researchportal.com",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.5.0",
+        "@tawk.to/tawk-messenger-react": "^2.0.1",
+        "axios": "^0.26.1",
+        "jwt-decode": "^3.1.2",
+        "next": "12.1.0",
+        "nextjs-progressbar": "^0.0.14",
+        "react": "17.0.2",
+        "react-country-select-component": "^1.0.2",
+        "react-data-table-component": "^7.4.7",
+        "react-datepicker": "^4.7.0",
+        "react-dom": "17.0.2",
+        "react-feather": "^2.0.9",
+        "react-hook-form": "^7.27.1",
+        "react-select": "^5.2.2",
+        "react-toastify": "^8.2.0",
+        "styled-components": "^5.3.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "eslint": "8.10.0",
+        "eslint-config-next": "12.1.0",
+        "postcss": "^8.4.7",
+        "tailwindcss": "^3.0.23"
+    },
+    "engines": {
+        "node": "16.x"
+    }
+}
